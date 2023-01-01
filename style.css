@@ -1,3 +1,6 @@
+*{
+  margin: 0;
+}
 body {
   font-family: "Manrope";
   font-size: 1em;
@@ -25,6 +28,7 @@ p,li {
 }
 header,footer{
     background-color: white;
+    padding: 20px 50px 20px 50px;
 }
 h2{
   color: #f9f8ff;
@@ -42,7 +46,57 @@ h2{
 #aboutAp{
   border-right:1px solid #A5B4FC ;
   border-bottom: 1px solid #A5B4FC;
+  padding: 50px;
 }
 .lien-icone:hover{
   opacity: 0.5;
+}
+section{
+  padding: 80px;
+}
+#abt-main{
+  width: 50%;
+  margin: auto;
+}
+#aboutAp h2{
+  margin-top: 20px;
+}
+#aboutAp ul{
+  margin-top: 20px;
+}
+.header-container{
+  display: flex;
+  justify-content: space-between;
+}
+.container2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.container1{
+  display: flex;
+}
+.sec-img{
+  width: 30%;
+  margin-bottom: 20px;
+}
+nav a {
+  margin-left: 30px;
+}
+.section2{
+  background-color: white;
+  margin-bottom: 30px;
+}
+.section2 h2{
+  color: #242424;
+  text-align: center;
+  margin-bottom: 80px
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+}
+footer a{
+  margin-left: 20px;
 }
